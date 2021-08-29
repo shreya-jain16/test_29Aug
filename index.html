@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompt</title>
+    <style>
+       
+            .wrapper{
+                width: 100%;
+                }
+
+            .box{
+                height: 600px;
+                /*border: 1px solid black;*/
+                background-color: rgb(224, 224, 37);
+                box-sizing: border-box;
+                float: left;
+                margin: 1em;
+               /* padding: 1em;*/
+                display: flex;
+                flex-direction:row;
+                flex-wrap: wrap;
+                
+            }
+
+
+
+            #b1{
+                border-top: 15px solid rgb(224, 224, 37);
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .i1{
+                border: 2px solid rgba(16, 255, 243, 0.904);
+                height: 50%;
+                width: 45%;
+                background-color: rgba(16, 255, 243, 0.904);
+            }
+
+            .i2{
+                border: 2px solid rgba(16, 255, 243, 0.904);
+                height: 50%;
+                width: 45%;
+                background-color: rgba(16, 255, 243, 0.904);
+            }
+
+            .i3{
+                border: 2px solid rgba(16, 255, 243, 0.904);
+                height: 45%;
+                width: 80%;
+                background-color: rgba(16, 255, 243, 0.904);
+                margin-left: 10%;
+                margin-right: 10%;
+                margin-top: 20px;
+            }
+            
+            .inner{
+                border: 1px solid rgba(16, 255, 243, 0.904);
+                background-color:  rgba(16, 255, 243, 0.904);
+                
+            }
+            .sm1{
+                margin-left: 1em;
+            }
+            .sm2{
+                margin-right: 1em;
+            }
+
+            @media screen and (min-width: 769px){
+                .box{
+                    width: 30%;
+                }
+                .inner{
+		            height: 45%;
+                    margin-top: 30px;
+	            }
+                .sm1{
+                    width: 43%;
+                    height: 90%;
+                    border-right: 10px solid rgb(224, 224, 37);
+                }
+
+                .sm2{
+                    width: 44%;
+                    height: 90%;
+                }
+                }
+
+@media screen and (max-width: 768px){
+	.box{
+		width:100%;
+	}
+	.inner{
+	height: 25%;
+	}
+	.sm1{
+		width: 90%;
+        height: 48%;
+        border-bottom: 5px solid rgb(224, 224, 37);
+        margin-left: 5px solid rgb(224, 224, 37);
+	}
+
+	.sm2{
+		width: 90%;
+        height: 48%;
+        
+	}
+}
+
+.j1 {
+    border: 1px solid rgba(16, 255, 243, 0.904);
+    background-color: rgba(16, 255, 243, 0.904);
+    width: 45%;
+    height: 47%;
+    margin-left: 15px;
+    
+}
+.j2 {
+    border: 1px solid rgba(16, 255, 243, 0.904);
+    background-color: rgba(16, 255, 243, 0.904);
+    width: 45%;
+    height: 45%;
+    margin-left: 50%;
+    
+}
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <h1 style="text-align:center">Final Assesment-Name</h1>
+		<div class="box" id="b1">
+            <div class="i1" >
+
+            </div>
+            <div class="i2">
+
+            </div>
+            <div class="i3">
+                <ol>
+                    <li>Box Element</li>
+                    <li>Font Styling</li>
+                    <li>Image Editing</li>
+                </ol>
+            </div>
+			<div style="background-color: white;
+            margin-top: 15px;
+            text-decoration: none;
+            text-align: center;">Box 2</div>
+		</div>
+		<div class="box">
+			<div class="inner sm1" >
+				
+			</div>
+			<div class="inner sm2" >
+				
+			</div>
+			
+            <div style="background-color: white;
+            margin-top: 40px;
+            text-decoration: none;
+            text-align: center;">Box 1</div>
+		</div>
+		<div class="box">
+            <div class="j1" style="border-top: 15px solid rgb(224, 224, 37)" >
+                <p style="text-align: center;">Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="j2" style="padding-bottom: 15px solid rgb(224, 224, 37)">
+                <p style="text-align: center;">Lorem ipsum dolor sit amet.</p>
+            </div>
+			<div style="background-color: white;
+            margin-top: 40px;
+            text-decoration: none;
+            text-align: center;">Box 3</div>
+		</div>
+    </div>
+    
+</body>
+</html>
